@@ -1,8 +1,7 @@
 An interactive, first-principles visualization tool built to deconstruct Byte Pair Encoding (BPE) tokenization and high-dimensional vector spaces. This application exposes how text fragments are mapped into continuous coordinates, contrasting traditional additive position frameworks with modern Rotary Position Embeddings (RoPE).
 
-![Application Dashboard Interface](screenshot.png)
-![Rotary Coordinates Orbit](screenshot2.png)
-
+<img width="1824" height="913" alt="Image" src="https://github.com/user-attachments/assets/97ab9ad2-3147-4b47-8796-7fd66ed120e1" />
+<img width="1781" height="907" alt="Image" src="https://github.com/user-attachments/assets/e0e056ab-7fda-4657-8701-a3dd852ad502" />
 ---
 
 ## 🏛️ Project Architecture
