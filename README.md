@@ -1,0 +1,23 @@
+An interactive, first-principles visualization tool built to deconstruct Byte Pair Encoding (BPE) tokenization and high-dimensional vector spaces. This application exposes how text fragments are mapped into continuous coordinates, contrasting traditional additive position frameworks with modern Rotary Position Embeddings (RoPE).
+
+![Application Dashboard Interface](screenshot.png)(screenshot2.png)
+
+---
+
+## 🏛️ Project Architecture
+
+The codebase is split into three transparent, decoupled modules:
+
+* **`tokenizer.py`:** A raw Python implementation of a BPE tokenizer.
+* **`geometry.py`:** Synthesizes multi-dimensional continuous tensor arrays ($d_{model} = 16$) and executes the underlying coordinate mathematics.
+* **`app.py`:** The frontend orchestration layer that maps the mathematical engines to interactive data tables and dynamic vector plots.
+
+---
+
+## 🚀 Quickstart
+
+### 1. Prerequisites
+You only need a standard Python installation and three external libraries for rendering and math. Install them via your terminal:
+
+```bash
+pip install streamlit plotly numpy
